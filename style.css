@@ -478,7 +478,6 @@ STEPS ↓
   font-weight: 500;
   margin-top: 12px;
   line-height: 2;
-
 }
 
 /* 
@@ -491,6 +490,84 @@ VALUES ↓
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Added Steps section elements */
+.values__description--wrapper {
+  width: 50%;
+  padding: 32px 64px 32px 0;
+}
+
+#values .section__title {
+  margin: 16px 0 32px 0;
+  line-height: 1.25;
+}
+
+.values__list {
+  display: flex;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 32px 32px 0 0;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
+}
+
+.value__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.value__img {
+  width: 20px;
+  height: 20px;
+}
+
+.first__icon {
+  background-color: #9ae6b4;
+}
+
+.dollar {
+  color: rgb(39, 103, 73);
+}
+
+.second__icon {
+  background-color: #feb2b2;
+}
+
+.briefcase {
+  color: rgb(155, 44, 44);
+}
+
+.value__name {
+  color: #243e63;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 12px;
+}
+
+.value__para {
+  color: #718096;
+  margin-top: 16px;
+  line-height: 1.625;
+}
+
+.values__img {
+  width: 50%;
+}
+
+#values .btn {
+  margin-top: 48px;
 }
 
 /*
