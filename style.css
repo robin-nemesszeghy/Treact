@@ -582,6 +582,210 @@ PRICING ↓
   align-items: center;
 }
 
+/* Added Pricing section elements */
+.plans {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.plan {
+  width: 100%;
+  max-width: 384px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  margin: 64px 32px 0 0;
+  padding: 8px 32px 0 32px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.plan__white {
+  background-color: rgb(255 255 255);
+}
+
+.plan__blue {
+  background: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
+}
+
+.plan__stripe {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.plan__personal--stripe {
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+  color: #f7fafc;
+}
+
+.plan__enterprise--stripe {
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+  color: #f7fafc;
+}
+
+.plan__top {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0;
+  text-transform: uppercase;
+  line-height: 1.625;
+}
+
+.plan__name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.625;
+}
+
+.plan__name--black {
+  color: #1a202c;
+}
+
+.plan__name--white {
+  color: #f7fafc;
+}
+
+.plan__price {
+  margin: 4px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.625;
+}
+
+.plan__price--black {
+  color: #1a202c;
+}
+
+.plan__price--white {
+  color: #f7fafc;
+}
+
+.plan__duration {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 1.625;
+}
+
+.plan__duration--gray {
+  color: #a0aec0;
+}
+
+.plan__duration--white {
+  color: #f7fafc;
+}
+
+.plan__middle {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  margin: 0 -32px;
+  flex: 1 1 0%;
+}
+
+.plan__middle--gray {
+  border-top: 2px solid rgb(229, 231, 235);
+  border-bottom: 2px solid rgb(229, 231, 235);
+}
+
+.plan__middle--blue {
+  border-top: 2px solid rgb(102, 126, 234);
+  border-bottom: 2px solid rgb(102, 126, 234);
+}
+
+.plan__target {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+.plan__target--black {
+  color: #1a202c;
+}
+
+.plan__target--white {
+  color: #f7fafc;
+}
+
+.plan__feature {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.plan__feature--gray {
+  color: #718096;
+}
+
+.plan__feature--white {
+  color: #f7fafc;
+}
+
+.plan__bottom {
+  padding: 32px 0;
+}
+
+.plan__btn {
+  width: 100%;
+  max-width: 200px;
+  padding: 16px 0;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.plan__btn--first {
+  color: #f7fafc;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.plan__btn--second {
+  background-color: #f7fafc;
+  color: #6415ff;
+}
+
+.plan__btn--third {
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+  color: #f7fafc;
+}
+
 /* 
 
 TESTIMONIALS ↓
